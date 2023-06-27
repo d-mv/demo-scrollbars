@@ -1,0 +1,18 @@
+.container {
+	position: absolute;
+	top: 5rem;
+	left: calc(100% - .4rem);
+	right: 0;
+	bottom: 0;
+	width: .4rem;
+}
+
+.bar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	background-color: red;
+	border-radius: .5rem;
+	transition: transform 0.02s;
+}

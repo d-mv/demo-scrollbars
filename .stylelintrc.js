@@ -1,0 +1,21 @@
+module.exports = {
+  extends: ['stylelint-config-standard-scss'],
+  plugins: ['stylelint-order'],
+  rules: {
+    indentation: 4,
+    'string-quotes': 'single',
+    'number-leading-zero': 'never',
+    'declaration-block-no-duplicate-properties': true,
+    // 'selector-max-id': null,
+    // 'declaration-block-trailing-semicolon': null,
+    // 'scss/at-extend-no-missing-placeholder': null,
+    'max-nesting-depth': 5,
+    'selector-max-compound-selectors': 5,
+    'block-no-empty': [true, { ignore: ['comments'] }],
+    'selector-no-qualifying-type': [true, { ignore: ['attribute'] }],
+    'unit-allowed-list': ['%', 'deg', 'rem', 'ms', 'vw', 's'],
+    'color-no-invalid-hex': true,
+    'function-disallowed-list': ['rgb', 'hwb', 'lch'],
+    'order/properties-alphabetical-order': true,
+  },
+};

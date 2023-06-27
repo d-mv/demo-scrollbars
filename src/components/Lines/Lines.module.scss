@@ -1,0 +1,18 @@
+.container {
+	overflow-y: auto;
+	display: block;
+	height: calc(100% - 5rem);
+	width: fit-content;
+	position: relative;
+
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.content {
+	width: 100rem;
+	height: 100rem;
+	background: linear-gradient(45deg, #444, transparent);
+}

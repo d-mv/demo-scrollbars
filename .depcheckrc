@@ -1,0 +1,2 @@
+ignores: ['autoprefixer', 'dotenv', 'eslint-plugin-react-refresh', 'node-stdlib-browser', 'postcss', 'stylelint', 'stylelint-config-standard', 'stylelint-config-standard-scss', 'stylelint-order', 'tiny-case', 'tslib', '@storybook/addon-essentials', '@storybook/addon-interactions', '@storybook/addon-links', '@storybook/builder-vite', '@storybook/testing-library', '@vitest/coverage-v8']
+skip-missing: true
